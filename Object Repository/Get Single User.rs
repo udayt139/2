@@ -31,6 +31,18 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-</verificationScript>
+
+//response code
+WS.verifyResponseStatusCode(response, 200)
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+//header
+assertThat(response.getHeaderFields().containsKey('Content-Type')).isTrue()
+
+//contains String
+assertThat(response.getResponseText()).contains('first_name')
+
+//json value
+WS.verifyElementPropertyValue(response, 'data.first_name', 'Janet')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

@@ -35,6 +35,13 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+//response code
+WS.verifyResponseStatusCode(response, 204)
+assertThat(response.getStatusCode()).isEqualTo(204)
+
+//header
+assertThat(response.getHeaderFields().containsKey('Connection')).isTrue()
 </verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

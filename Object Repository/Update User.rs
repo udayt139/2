@@ -42,6 +42,18 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-</verificationScript>
+
+//response code
+WS.verifyResponseStatusCode(response, 200)
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+//header
+assertThat(response.getHeaderFields().containsKey('Content-Type')).isTrue()
+
+//contains String
+assertThat(response.getResponseText()).contains('name')
+
+//json value
+WS.verifyElementPropertyValue(response, 'name', 'morpheus')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
