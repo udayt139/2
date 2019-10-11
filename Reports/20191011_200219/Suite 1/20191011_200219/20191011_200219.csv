@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite 1,,,,2019-10-11 20:02:23,2019-10-11 20:02:32,8.844s,INCOMPLETE
+,,,,,,,
+Test Cases/Create User,,,,2019-10-11 20:02:23,2019-10-11 20:02:27,4.284s,PASSED
+"sendRequest(findTestObject(""Create User""))",,,,2019-10-11 20:02:24,2019-10-11 20:02:27,3.812s,PASSED
+,,,,,,,
+Test Cases/Delete User,,,,2019-10-11 20:02:27,2019-10-11 20:02:29,1.521s,PASSED
+"sendRequest(findTestObject(""Delete User""))",,,,2019-10-11 20:02:28,2019-10-11 20:02:29,1.112s,PASSED
+,,,,,,,
+Test Cases/Get Single User,,,,2019-10-11 20:02:29,2019-10-11 20:02:30,0.889s,PASSED
+"sendRequest(findTestObject(""Get Single User""))",,,,2019-10-11 20:02:29,2019-10-11 20:02:30,0.635s,PASSED
+,,,,,,,
+Test Cases/Update User,,,,2019-10-11 20:02:30,2019-10-11 20:02:32,1.589s,PASSED
+"sendRequest(findTestObject(""Update User""))",,,,2019-10-11 20:02:30,2019-10-11 20:02:31,1.326s,PASSED

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="Suite 1" time="8" tests="4" failures="0" errors="0">
+    <testsuite name="Suite 1" tests="4" failures="0" errors="0" time="8" timestamp="2019-10-11 20:02:23" hostname="Dell - DESKTOP-A4R0EHC" id="Test Suites/Suite 1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Dell\\Katalon Studio\\API\\Reports\\20191011_200219\\Suite 1\\20191011_200219"/>
+            <property name="logFiles" value="C:\\Users\\Dell\\Katalon Studio\\API\\Reports\\20191011_200219\\Suite 1\\20191011_200219\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Dell - DESKTOP-A4R0EHC"/>
+            <property name="hostAddress" value="172.20.10.2"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+        </properties>
+        <testcase name="Test Cases/Create User" classname="Test Cases/Create User" status="PASSED">
+            <system-out>2019-10-11 20:02:23 - [TEST_CASE][PASSED] - Test Cases/Create User: Test Cases/Create User&#xD;
+&#xD;
+2019-10-11 20:02:24 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Create User")): Send request successfully&#xD;
+&#xD;
+2019-10-11 20:02:27 - [MESSAGE][INFO] - HAR: C:\Users\Dell\Katalon Studio\API\Reports\20191011_200219\Suite 1\20191011_200219\requests\main\0.har&#xD;
+&#xD;
+2019-10-11 20:02:27 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Delete User" classname="Test Cases/Delete User" status="PASSED">
+            <system-out>2019-10-11 20:02:27 - [TEST_CASE][PASSED] - Test Cases/Delete User: Test Cases/Delete User&#xD;
+&#xD;
+2019-10-11 20:02:28 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Delete User")): Send request successfully&#xD;
+&#xD;
+2019-10-11 20:02:29 - [MESSAGE][INFO] - HAR: C:\Users\Dell\Katalon Studio\API\Reports\20191011_200219\Suite 1\20191011_200219\requests\main\1.har&#xD;
+&#xD;
+2019-10-11 20:02:29 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Get Single User" classname="Test Cases/Get Single User" status="PASSED">
+            <system-out>2019-10-11 20:02:29 - [TEST_CASE][PASSED] - Test Cases/Get Single User: Test Cases/Get Single User&#xD;
+&#xD;
+2019-10-11 20:02:29 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Get Single User")): Send request successfully&#xD;
+&#xD;
+2019-10-11 20:02:30 - [MESSAGE][INFO] - HAR: C:\Users\Dell\Katalon Studio\API\Reports\20191011_200219\Suite 1\20191011_200219\requests\main\2.har&#xD;
+&#xD;
+2019-10-11 20:02:30 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Update User" classname="Test Cases/Update User" status="PASSED">
+            <system-out>2019-10-11 20:02:30 - [TEST_CASE][PASSED] - Test Cases/Update User: Test Cases/Update User&#xD;
+&#xD;
+2019-10-11 20:02:30 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Update User")): Send request successfully&#xD;
+&#xD;
+2019-10-11 20:02:31 - [MESSAGE][INFO] - HAR: C:\Users\Dell\Katalon Studio\API\Reports\20191011_200219\Suite 1\20191011_200219\requests\main\3.har&#xD;
+&#xD;
+2019-10-11 20:02:31 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-10-11 20:02:23 - [TEST_SUITE][INCOMPLETE] - Suite 1: null</system-out>
+        <system-err>2019-10-11 20:02:23 - [TEST_SUITE][INCOMPLETE] - Suite 1: null</system-err>
+    </testsuite>
+</testsuites>
